@@ -22,7 +22,11 @@ Across six patients (slice 7 each), warm-starting both the generator weights and
 
 ![Figure 3](figures/fig3_temporal_cuts.png)
 
-**Figure 4.** Baseline and warm-start reconstructions across all 11 slices of one patient, with absolute differences ×5. [Watch the video (MP4)](figures/fig4_all_slices.mp4)
+**Figure 4.** Baseline and warm-start reconstructions across all 11 slices of one patient, with absolute differences ×5.
+
+![Figure 4](figures/fig4_all_slices.gif)
+
+[Full-resolution video (MP4)](figures/fig4_all_slices.mp4)
 
 **Figure 5.** Initialization ablation (six patients, slice 7): (a) epochs to convergence, (b) epoch speedup, (c) validation-loss ratio.
 

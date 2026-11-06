@@ -1,0 +1,19 @@
+# Python 3.9+ and a CUDA-capable GPU.
+# Install PyTorch first, matching your CUDA version: https://pytorch.org/get-started/locally/
+torch>=1.13
+torchkbnufft
+numpy
+scipy
+scikit-learn
+mat73
+sigpy
+matplotlib
+imageio
+imageio-ffmpeg
+Pillow
+
+# Also required (not on PyPI): ESPIRiT coil-map estimation.
+#   git clone https://github.com/mikgroup/espirit-python recon/espirit
+#
+# Optional, only for coilEst='inati' or 'walsh' (default is 'espirit'):
+#   pip install git+https://github.com/ismrmrd/ismrmrd-python-tools.git

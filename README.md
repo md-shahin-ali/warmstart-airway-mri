@@ -26,8 +26,6 @@ Across six patients (slice 7 each), warm-starting both the generator weights and
 
 ![Figure 4](figures/fig4_all_slices.gif)
 
-[Full-resolution video (MP4)](figures/fig4_all_slices.mp4)
-
 **Figure 5.** Initialization ablation (six patients, slice 7): (a) epochs to convergence, (b) epoch speedup, (c) validation-loss ratio.
 
 ![Figure 5](figures/fig5_ablation.png)

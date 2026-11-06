@@ -1,0 +1,3 @@
+[submodule "recon/espirit"]
+	path = recon/espirit
+	url = https://github.com/mikgroup/espirit-python

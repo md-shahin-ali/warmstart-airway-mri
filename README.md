@@ -59,8 +59,8 @@ figures/               <- abstract figures shown in this README
 A CUDA-capable GPU is required (the NUFFT operators run on the GPU).
 
 ```bash
-git clone https://github.com/<your-username>/<this-repo>.git
-cd <this-repo>
+git clone --recursive https://github.com/md-shahin-ali/warmstart-airway-mri.git
+cd warmstart-airway-mri
 
 conda create -n warmstart python=3.10 -y
 conda activate warmstart
@@ -68,12 +68,9 @@ conda activate warmstart
 # 1. PyTorch matching your CUDA version: https://pytorch.org/get-started/locally/
 # 2. everything else
 pip install -r requirements.txt
-
-# 3. ESPIRiT coil-map estimation (not on PyPI)
-git clone https://github.com/mikgroup/espirit-python recon/espirit
 ```
 
-Optional: `coilEst='inati'` or `'walsh'` also needs `pip install git+https://github.com/ismrmrd/ismrmrd-python-tools.git`. The default (`'espirit'`) does not.
+`recon/espirit` is a git submodule pointing to [mikgroup/espirit-python](https://github.com/mikgroup/espirit-python); `--recursive` downloads it. If you already cloned without it, run `git submodule update --init`. `recon/ismrmrdtools` is included from [ismrmrd-python-tools](https://github.com/ismrmrd/ismrmrd-python-tools) under its own license (see `recon/ismrmrdtools/LICENSE`).
 
 ## Data format
 

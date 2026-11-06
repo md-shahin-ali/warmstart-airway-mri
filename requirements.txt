@@ -12,8 +12,6 @@ imageio
 imageio-ffmpeg
 Pillow
 
-# Also required (not on PyPI): ESPIRiT coil-map estimation.
-#   git clone https://github.com/mikgroup/espirit-python recon/espirit
-#
-# Optional, only for coilEst='inati' or 'walsh' (default is 'espirit'):
-#   pip install git+https://github.com/ismrmrd/ismrmrd-python-tools.git
+# Not installed with pip:
+#   recon/espirit       git submodule  (clone this repo with --recursive)
+#   recon/ismrmrdtools  included in this repo

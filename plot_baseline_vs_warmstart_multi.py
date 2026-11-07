@@ -3,7 +3,7 @@
 # ===============================================================
 #  plot_baseline_vs_warmstart_multi.py
 #
-#      python analysis/plot_baseline_vs_warmstart_multi.py
+#      python plot_baseline_vs_warmstart_multi.py
 #
 #  Slice 7: baseline (E1_scratch, random init) vs warm start (E2_chain,
 #  from slice 6). For each subject, a two-panel figure of epochs to converge
@@ -25,9 +25,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import config  # noqa: E402
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import config  # noqa: E402
 from stats_utils import find_stats, drop1_record, BASELINE_TAG, JOINT_TAG  # noqa: E402
 
 # label -> path to that subject's .mat file. By default, the one subject in

@@ -3,7 +3,7 @@
 # ===============================================================
 #  make_baseline_vs_warmstart_diff_video.py
 #
-#      python analysis/make_baseline_vs_warmstart_diff_video.py
+#      python make_baseline_vs_warmstart_diff_video.py
 #
 #  Video (MP4 + GIF) of all 11 slices, three rows per slice:
 #     row 1  BASELINE   (E1_scratch, the reference)      - grayscale
@@ -32,7 +32,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.cm as cm
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config  # noqa: E402
 
 # ---------------------------------------------------------------

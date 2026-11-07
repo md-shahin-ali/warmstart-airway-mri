@@ -29,7 +29,7 @@ SUBJECT = os.environ.get('WARMSTART_SUBJECT', 'subject01')
 #  Everything below is derived - no need to edit.
 # ---------------------------------------------------------------
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
-RECON_DIR = os.path.join(REPO_DIR, 'recon')
+RECON_DIR = REPO_DIR          # all .py files live in the repository root
 
 # All outputs (pickle cache, checkpoints, reconstructions, logs) are written
 # next to the data file, in folders that start with the file's stem.

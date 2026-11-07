@@ -58,7 +58,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 warnings.filterwarnings("ignore", category=FutureWarning)
 os.environ['PYTORCH_CUDA_ALLOC_CONF'] = 'expandable_segments:True'
 
-CODE_DIR = os.path.dirname(os.path.abspath(__file__))   # this folder (recon/)
+CODE_DIR = os.path.dirname(os.path.abspath(__file__))   # repository root
 if CODE_DIR not in sys.path:
     sys.path.insert(0, CODE_DIR)
 

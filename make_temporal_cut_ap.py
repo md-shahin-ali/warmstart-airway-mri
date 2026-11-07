@@ -3,8 +3,8 @@
 # ===============================================================
 #  make_temporal_cut_ap.py
 #
-#      python analysis/make_temporal_cut_ap.py            (slice from SLICE below)
-#      python analysis/make_temporal_cut_ap.py 7          (or pass the slice)
+#      python make_temporal_cut_ap.py            (slice from SLICE below)
+#      python make_temporal_cut_ap.py 7          (or pass the slice)
 #
 #  Temporal cut along the anterior-posterior direction (one image column,
 #  all frames) for baseline (E1_scratch) and warm start (E2_chain), plus
@@ -34,7 +34,7 @@ if not _NB:
     matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import config  # noqa: E402
 
 

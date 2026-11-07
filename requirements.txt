@@ -13,5 +13,5 @@ imageio-ffmpeg
 Pillow
 
 # Not installed with pip:
-#   recon/espirit       git submodule  (clone this repo with --recursive)
-#   recon/ismrmrdtools  included in this repo
+#   espirit/        git submodule  (clone this repository with --recursive)
+#   ismrmrdtools/   included in this repository

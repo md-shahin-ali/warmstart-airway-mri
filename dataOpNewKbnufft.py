@@ -318,8 +318,8 @@ class dataAndOperators:
             self.smap=np.expand_dims(smap,axis=0)
         
         elif (self.params["coilEst"] in ('inati', 'walsh')) and coils is None:
-            raise ImportError("coilEst='%s' needs ismrmrdtools: pip install "
-                              "git+https://github.com/ismrmrd/ismrmrd-python-tools.git"
+            raise ImportError("coilEst='%s' needs the ismrmrdtools folder (included "
+                              "in this repository) next to this file"
                               % self.params["coilEst"])
 
         elif (self.params["coilEst"]=='inati'):

@@ -9,12 +9,12 @@
 
 > Md Shahin Ali<sup>1</sup>, Mathews Jacob<sup>2</sup>, Wahidul Alam<sup>3</sup>, Aygun Asgarli<sup>4</sup>, Douglas Van Daele<sup>5</sup>, Junjie Liu<sup>4</sup>, Sajan Goud Lingala<sup>1,6</sup>
 >
-> <sup>1</sup>Roy J. Carver Department of Biomedical Engineering, University of Iowa<br>
-> <sup>2</sup>Department of Electrical and Computer Engineering, University of Virginia<br>
-> <sup>3</sup>GE HealthCare<br>
-> <sup>4</sup>Department of Neurology, University of Iowa<br>
-> <sup>5</sup>Department of Otolaryngology, University of Iowa<br>
-> <sup>6</sup>Department of Radiology, University of Iowa
+> <sup>1</sup>Roy J. Carver Department of Biomedical Engineering, University of Iowa, USA<br>
+> <sup>2</sup>Department of Electrical and Computer Engineering, University of Virginia, USA<br>
+> <sup>3</sup>GE HealthCare, (United States), USA<br>
+> <sup>4</sup>Department of Neurology, University of Iowa, USA<br>
+> <sup>5</sup>Department of Otolaryngology, University of Iowa, USA<br>
+> <sup>6</sup>Department of Radiology, University of Iowa, USA
 
 ---
 

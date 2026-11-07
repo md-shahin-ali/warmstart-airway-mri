@@ -10,9 +10,9 @@
 *.mp4
 *.gif
 *.png
-!figures/*.png
-!figures/*.mp4
-!figures/*.gif
+!Figures/*.png
+!Figures/*.mp4
+!Figures/*.gif
 *_RECONS_*/
 *_60d/
 *_LOGS/
